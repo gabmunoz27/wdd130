@@ -1,6 +1,7 @@
 volumes.txt
 110/
 111/
-toppasswords
-volumes
-wordlist
+toppasswords.txt
+volumes.txt
+wordlist.txt
+history.txt
