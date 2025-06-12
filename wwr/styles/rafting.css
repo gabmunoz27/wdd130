@@ -1,0 +1,82 @@
+
+:root {
+  --primary-color: #009dff; /* Azul */
+  --secondary-color: #0077b6; /* Azul más claro */
+  --accent1-color: #000000; /* Aqua */
+  --accent2-color: #fff; /* Aqua más claro */
+  --heading-font: "Montserrat", sans-serif;
+  --body-font: "Montserrat", sans-serif;;
+}
+
+header {
+    background-color: var(--primary-color);
+    color: var(--accent2-color);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--body-font);
+    color: var(--accent1-color)
+}
+
+header,main,footer {
+    width: 0 auto;
+    max-width: 1370px;
+    margin: 0 auto;
+}
+
+h1, h2 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+
+nav, p, section, article {
+    margin: 16px;
+    padding: 8px;
+}   
+
+.socialmedia {
+    text-decoration: none;
+}
+
+.hero {
+  position: relative;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+h1 {
+    position: absolute;
+    top: 20px;
+    width: 100%;
+    padding: 16px;
+    text-align: center;
+    background-color: rgba(139, 121, 68, 0.8);
+    color: #fff;    
+}
+
+
+.hero article {
+    position: absolute;
+    bottom: 200px;
+    margin: auto;
+    padding: 16px;
+    background-color: rgba(139, 121, 68, 0.8);
+    color: white;
+}
+
+.hero article img {
+    float: right;
+    width: 100px;
+    margin-left: 10px;
+    border-radius: 8px;
+}
