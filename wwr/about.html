@@ -13,17 +13,23 @@
 </head>
 <!-- The header section contains the logo and navigation links -->
 <body>
+    
     <header>
         <img src="images/logo.png" alt="Ecuador Rafting Logo">
         <nav>
-            <a href="index.html">Home</a>
-            <a href="about.html">About Us</a>
-            <a href="trips.html">Trips</a>
-            <a href="contact.html">Contact</a>
+            <ul class="navigation">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="adventures.html">Adventures</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            
         </nav>
     </header>
     <!-- Main content of the page -->
+    
     <main>
+        
         <div class="hero">
             <img src="images/hero.png" alt="Rafting Ecuador">
             <h1>Ecuador Rafting</h1>
@@ -32,35 +38,58 @@
                 <p>Our mission is to bring unforgettable whitewater rafting experiences in Ecuador with safety, fun, and nature at the heart of everything we do!</p>
             </article>
         </div>
-        <section>
+        
+        <!-- The history section provides background information about the company -->
+        <section class="history">
             <h2>History</h2>
-            <p>Founded in 2013, Ecuador Rafting started with one goal: to share the beauty of Ecuador's rivers. With over a decade of experience, we pride ourselves on safety, fun, and conservation.</p>
+            <div class="history-content">
+                <div class="history-text">
+                    <p>Founded in 2013, Ecuador Rafting started with one goal: to share the beauty of Ecuador's rivers. With over a decade of experience, we pride ourselves on safety, fun, and conservation.</p>
+                </div>
+                <div class="history-image">
+                    <img src="images/history.jpg" alt="History Icon">
+                </div>
+                <div class="history-text">
+                    <p>Over the years, Ecuador Rafting has become a leader in eco-tourism and adventure sports in the region. From humble beginnings with a single raft, the company has grown to guide thousands of adventurers each year through some of South America's most breathtaking rivers, always promoting respect for nature and local communities.</p>
+            </div>
         </section>
+        
         <!-- The adventures section showcases the rafting experiences offered -->
-        <section>
+        <section class="adventures">
             <h2>Adventure Awaits You!</h2>
-            <img src="images/Boats.jpg" alt="Boats on water">
-            <img src="images/River.jpg" alt="Rafting on the river">
-            <img src="images/Equipment.jpg" alt="Rafting equipment">
-            <img src="images/Fiery.jpg" alt="Fiery rapids">
-            <img src="images/Adventure.jpg" alt="Rafting team">
-            <img src="images/safety.jpg" alt="Safety equip">
+            <div class="adventure-gallery">
+                <figure>
+                    <img src="images/Boats.jpg" alt="Boats on water">
+                    <figcaption>Boats ready for adventure</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/River.jpg" alt="Rafting on the river">
+                    <figcaption>Rafting on the river</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/Equipment.jpg" alt="Rafting equipment">
+                    <figcaption>Essential rafting equipment</figcaption>
+                </figure>   
+                <figure>
+                    <img src="images/Fiery.jpg" alt="Fiery rapids">
+                    <figcaption>Fiery rapids challenge</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/Adventure.jpg" alt="Rafting team">
+                    <figcaption>Rafting team ready</figcaption>
+                </figure>
+            </div>
         </section>
     </main>
     <!-- The footer section contains copyright and social media links -->
-    <footer>
-        <p>&copy; 2025 - Ecuador Rafting - Gabriel Muñoz</p>
-        <nav class="socialmedia">
-            <a href="https://facebook.com">
-                <img src="images/facebook.png" alt="Facebook" width="32">
-            </a>
-            <a href="https://twitter.com">
-                <img src="images/twitter.png" alt="Twitter" width="32">
-            </a>
-            <a href="https://instagram.com">
-                <img src="images/instagram.png" alt="Instagram" width="32">
-            </a>
-        </nav>
-    </footer>
+    <footer class="site-footer">
+  <div class="footer-content">
+    <div class="social-icons">
+      <a href="#"><img src="images/facebook.png" alt="Facebook"></a>
+      <a href="#"><img src="images/twitter.png" alt="Twitter"></a>
+      <a href="#"><img src="images/instagram.png" alt="Instagram"></a>
+    </div>
+  </div>
+</footer>
 </body>
 </html>
