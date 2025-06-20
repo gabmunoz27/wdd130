@@ -305,6 +305,7 @@ form button {
   flex-wrap: wrap;
   border: none;
   padding: 0;
+  margin-bottom: 1.6rem;
 }
 
 .radio-group label {
@@ -313,4 +314,9 @@ form button {
   gap: 0.4rem;
   font-size: 1rem;
   font-weight: 400;
+}
+
+.radio-group legend {
+  font-weight: bold;
+  margin-bottom: 0.6rem;
 }
