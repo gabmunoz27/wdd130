@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | Ecuador Rafting</title>
+    <meta name="description" content="Get in touch with Ecuador Rafting. Find our contact information, meet our team, and ask questions using our online form.">
+    <meta name="author" content="Gabriel Muñoz">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/contact.css">
+</head>
+<!-- header section with the logo and navigation links -->
+<body>
+    
+    <header>
+        <img src="images/logo.png" alt="Ecuador Rafting Logo">
+        <nav>
+            <ul class="navigation">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="adventures.html">Adventures</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            
+        </nav>
+    </header>
+    <!-- Main content of the page -->
+    
+    <main class="contact-page">
+      <section class="contact-form-section">
+        <div class="form-container">
+          <h2>Contact Us</h2>
+          <p>Have a question or comment? Get in touch using the form below.</p>
+          <form>
+            <label for="name">Your name</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Your mail</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="purpose">Purpose</label>
+            <select id="purpose" name="purpose" required>
+              <option value="general">General Inquiry</option>
+              <option value="reservation">Reservation Question</option>
+              <option value="suggestion">Website Suggestion</option>
+            </select>
+
+            <label for="message">Your message</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+
+            <div class="checkbox-group">
+              <input type="checkbox" id="newsletter" name="newsletter">
+              <label for="newsletter">Subscribe me to the monthly newsletter</label>
+            </div>
+
+            <button type="submit">Send</button>
+          </form>
+        </div>
+        <div class="contact-photo">
+          <img src="images/Contact 2.jpg" alt="Customer suport agent helping a client">
+        </div>
+      </section>
+      <div class="map-wrapper">
+        <div class="address-box">
+          <p><strong>Address</strong><br>
+          Rafting Ecuador<br>
+          Los Helechos, Baños de Agua Santa<br>
+          Tel: (555) 123-9876<br>
+          Email: <a href="mailto:contact@raftingecuador.com">contact@raftingecuador.com</a><br>
+          Support: <a href="mailto:support@raftingecuador.com">support@raftingecuador.com</a>
+        </div>
+      </div>
+
+      <section class="map-section">
+        <iframe 
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2903.040318063074!2d-78.41888476697174!3d-1.3913220586958146!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91d39117f23ede61:0x6e8866952372659a!2sRafting%20Ecuador!5e0!3m2!1ses!2sec!4v1750380981880!5m2!1ses!2sec"
+          width="100%" 
+          height="400" 
+          allowfullscreen="" 
+          loading="lazy" 
+          referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+      </section>
+      <section class="team-section">
+        <h2>Meet Our Team</h2>
+        <div class="team-grid">
+          <figure>
+            <img src="images/Rafting Instructor.jpg" alt="Rafting Instructor">
+            <figcaption>Rafting Instructor</figcaption>
+          </figure>
+          <figure>
+            <img src="images/Customer Support.jpg" alt="Customer Support">
+            <figcaption>Customer Support</figcaption>
+          </figure>
+          <figure>
+            <img src="images/General Manager.jpg" alt="General Manager">
+            <figcaption>General Manager</figcaption>
+          </figure>
+        </div>
+      </section>
+    </main>
+    
+    <!-- The footer section with copyright and social media links -->
+    <footer class="site-footer">
+      <div class="footer-content">
+        <p>&copy; 2025 Ecuador Rafting. All rights reserved.</p>
+
+        <div class="social-icons">
+          <a href="#"><img src="images/facebook.png" alt="Facebook"></a>
+          <a href="#"><img src="images/twitter.png" alt="Twitter"></a>
+          <a href="#"><img src="images/instagram.png" alt="Instagram"></a>
+        </div>
+      </div>
+
+      <!-- wideframe link -->
+      <p class="wireframe-link">
+        <a href="https://app.moqups.com/8Iuet10klVmVepsQeriaKNColkoLnENj/view/page/ad64222d5" target="_blank">View Contact Us Wireframe</a>
+      </p>
+    </footer>
+</body>
+</html>
