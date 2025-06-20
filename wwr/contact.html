@@ -8,7 +8,7 @@
     <meta name="author" content="Gabriel Muñoz">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/contact.css">
 </head>
 <!-- header section with the logo and navigation links -->
@@ -31,7 +31,7 @@
     <main class="contact-page">
       <section class="contact-form-section">
         <div class="form-container">
-          <h2>Contact Us</h2>
+          <h1>Contact Us</h1>
           <p>Have a question or comment? Get in touch using the form below.</p>
           <form>
             <label for="name">Your name</label>
@@ -39,13 +39,13 @@
 
             <label for="email">Your mail</label>
             <input type="email" id="email" name="email" required>
-
-            <label for="purpose">Purpose</label>
-            <select id="purpose" name="purpose" required>
-              <option value="general">General Inquiry</option>
-              <option value="reservation">Reservation Question</option>
-              <option value="suggestion">Website Suggestion</option>
-            </select>
+            
+            <fieldset class="radio-group">
+              <legend>Purpose</legend>
+              <label><input type="radio" name="purpose" value="general" required> General Inquiry</label>
+              <label><input type="radio" name="purpose" value="reservation"> Reservation Question</label>
+              <label><input type="radio" name="purpose" value="suggestion"> Website Suggestion</label>
+            </fieldset>
 
             <label for="message">Your message</label>
             <textarea id="message" name="message" rows="5" required></textarea>

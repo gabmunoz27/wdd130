@@ -25,7 +25,7 @@ header {
 
 
 header img {
-  width: auto;
+  width: 100px;
   height: auto;
   display: grid;
   align-items: center;
@@ -50,7 +50,6 @@ header img {
 }   
 
 .navigation a:hover {
-	color: rgb(240, 255, 71);
 	font-weight: 700;
 	text-decoration: underline;
 }
@@ -68,7 +67,6 @@ body {
 }
 
 header, main, footer {
-  max-width: 1370px;
   margin: 0 auto;
   width: 100%; 
   padding: 0 20px; 
@@ -218,4 +216,15 @@ h1 {
 .social-icons img {
   width: 30px;
   height: 30px;
+}
+
+.wireframe-link {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.wireframe-link a {
+  color: white;
+  text-decoration: underline;
+  font-size: 14px;
 }
