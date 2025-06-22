@@ -34,7 +34,7 @@ h1, h2 {
 }
 
 nav, p, section, article {
-  margin: 16px;
+  margin: 1px;
   padding: 8px;
 }   
 
@@ -115,7 +115,7 @@ header img {
 
 .hero-home h1 {
   position: absolute;
-  top: 20px;
+  top: 100px;
   left: 0;
   width: 100%;
   padding: 16px;
@@ -565,4 +565,103 @@ form button {
 .parrafo-destacado {
   font-size: 1.2rem;
   color: #333;
+}
+
+/*--------------------- End home css ---------------------*/
+
+/*--------------------- trips css ---------------------*/
+
+main {
+  font-family: Arial, sans-serif;
+  padding: 2rem;
+  background-color: #fff;
+  text-align: center;
+}
+
+/* Hero section */
+.hero-trip {
+  position: relative;
+  height: 400px;
+  background-color: #e5e5e5;
+  margin-bottom: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-trip-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.3;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.hero-trip-title {
+  position: relative;
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #000;
+}
+
+/* Reservation info */
+.reservation-info {
+  max-width: 1000px;
+  margin: 0 auto 2rem;
+  font-size: 1.2rem;
+}
+
+.book-btn {
+  display: inline-block;
+  background-color: var(--primary-color);
+  padding: 1rem 2rem;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  margin-top: 1rem; 
+}
+
+/* Trip section */
+.trip-section {
+  margin: 2rem 0;
+}
+
+.trip-section h2 {
+  font-size: 1.25rem;
+  margin-bottom: 1.5rem;
+}
+
+.trip-grid {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.trip-card {
+  max-width: 200px;
+  text-align: center;
+}
+
+.trip-card h3 {
+  font-size: 0.85rem;
+  margin-bottom: 0.5rem;
+}
+
+.trip-card button {
+  padding: 0.3rem 1rem;
+  border: 1px solid #999;
+  background-color: #f0f0f0;
+  cursor: pointer;
+}
+
+.trip-img {
+  width: 100%;
+  height: 100px;
+  object-fit: cover;
+  margin-bottom: 0.5rem;
+  border-radius: 4px;
 }
